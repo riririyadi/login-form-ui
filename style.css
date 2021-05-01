@@ -145,3 +145,11 @@ input {
 .google {
   background-color: #db4437;
 }
+
+@media screen and (max-width: 720px) {
+  #form-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+}
